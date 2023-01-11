@@ -22,3 +22,12 @@ if __name__ == "__main__":
     print(y[:namber])
 
     a_task()
+    
+    empty = None
+    empty_too = None
+    print(empty == empty_too, "- empty == empty_too")
+    print(empty != empty_too, "- empty != empty_too")
+
+    i_love_none = [None for i in range(50)]
+    print(i_love_none)
+    print("len(i_love_none)-", len(i_love_none))
